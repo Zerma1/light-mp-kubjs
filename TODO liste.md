@@ -1,4 +1,5 @@
 # TODO
+## SOMMAIRE
 1. [UNIFICATION](##UNIFICATION)
 	1. [MINERAI](###MINERAI)
 2. [ITEM](##ITEM)
@@ -16,6 +17,7 @@
 1. [ ] Cuivre
 2. [ ] Étain
 3. [ ] Argent
+	1. [ ] pixelmon et Ice&fire
 4. [ ] Plomb
 5. [ ] Nickel
 6. [ ] Zinc
@@ -88,7 +90,7 @@
 1. [ ] Blaze Burner - create:blaze_burner	
 	```
   	  B;C;B
-  	  0;S;0   
+  	    S  
     B;S;N;S;B   
 	  0;S;0 
 	    B    
