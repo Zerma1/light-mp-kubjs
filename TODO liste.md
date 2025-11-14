@@ -4,7 +4,7 @@
 	1. [MINERAI](###MINERAI)
 2. [ITEM](##ITEM)
 3. [CRAFT](##CRAFT)  
-	1.  [Carfting Table](###Carfting_Table)    
+	1. [Carfting Table](###Carfting_Table)    
 	2. [CREATE](###CREATE)  
 		1. [Mechanical_Crafter](####Mechanical_Crafter)  
 		2.  [Deployer](####Deployer)  
@@ -14,14 +14,14 @@
 ## UNIFICATION
 ### MINERAI
 
-1. [ ] Cuivre
-2. [ ] Étain
-3. [ ] Argent
-	1. [ ] pixelmon et Ice&fire
-4. [ ] Plomb
-5. [ ] Nickel
-6. [ ] Zinc
-7. [ ] Uranium
+- [ ] Cuivre
+- [ ] Étain
+- [ ] Argent
+	- [ ] pixelmon et Ice&fire
+- [ ] Plomb
+- [ ] Nickel
+- [ ] Zinc
+- [ ] Uranium
 
 ## ITEM
 1. [ ] Blaze Head - esi:blaze_head
