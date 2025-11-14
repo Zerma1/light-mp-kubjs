@@ -35,11 +35,11 @@
 #### Carfting_Table
 
 1. [ ] Ametyst Shard - 4 * minecraft:amethyst_shard  
- ```
-   B;
-
-   B = minecraft:amethyst_shard
- ```
+	 ```
+	   B;
+	
+	 B = minecraft:amethyst_shard
+	 ```
 2. [ ] Blaze Head  - esi:blaze_head
 	```
 	   B;B;B
@@ -53,7 +53,7 @@
 
 #### Brewing_Stand
 1. [ ] dragon blood neutral - esi:iceandfire_dragon_neutral_blood
-	 ```
+	```
 		 I
 	   B;B;B
 	
@@ -61,29 +61,29 @@
 	B = water botle
 	```
 2. [ ] fire dragon blood - iceandfire:fire_dragon_blood
- ```
+	```
 		 I
 	   B;B;B
 	
 	I = iceandfire:fire_dragon_blood
 	B = esi:iceandfire_dragon_neutral_blood
- ```
+	```
 3. [ ] ice dragon blood - iceandfire:ice_dragon_blood
- ```
+	```
 		 I
 	   B;B;B
 	
 	I = iceandfire:ice_dragon_blood
 	B = esi:iceandfire_dragon_neutral_blood
- ```
+	```
 4. [ ] lightning dragon blood - iceandfire:lightning_dragon_blood
- ```
+	```
 		 I
 	   B;B;B
 	
 	I = iceandfire:lightning_dragon_blood
 	B = esi:iceandfire_dragon_neutral_blood
- ```
+	```
 ### CREATE
 #### Mechanical_Crafter
 
@@ -117,7 +117,7 @@
 	```
 	250mB lava
 	4 * Nether Star
-  	```
+	```
 2. [ ] .
 
 #### Spout
