@@ -1,12 +1,14 @@
 # TODO
-1. [UNIFICATION](##UNIFICATION)  
-   1.1. [MINERAI](###MINERAI)
+1. [UNIFICATION](##UNIFICATION)
+	1. [MINERAI](###MINERAI)
 2. [ITEM](##ITEM)
 3. [CRAFT](##CRAFT)  
-   3.1. [Carfting Table](###Carfting_Table)    
-   3.2. [CREATE](###CREATE)  
-   3.2.1 [Mechanical_Crafter](####Mechanical_Crafter)  
-   3.2.2 [Deployer](####Deployer)
+	1.  [Carfting Table](###Carfting_Table)    
+	2. [CREATE](###CREATE)  
+		1. [Mechanical_Crafter](####Mechanical_Crafter)  
+		2.  [Deployer](####Deployer)  
+		3. [Mechanical Mixer](####Mechanical_Mixer)  
+		4. [Spout](####Spout)  
 
 ## UNIFICATION
 ### MINERAI
