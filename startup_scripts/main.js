@@ -27,6 +27,7 @@ StartupEvents.registry('item', envent =>{
         .maxStackSize(16)
         .rarity('rare')  // Options: common, uncommon, rare, epic
         .glow(true)  // Fait briller l'item (effet enchanté)
+        .texture('minecraft:entity/blaze')
 
     /* #endregion blaze head */
 
@@ -63,7 +64,6 @@ StartupEvents.registry('item', envent =>{
 
         /* #endregion Ultimate Lava */
 
-
     })
 
 /* #endregion fluid */
@@ -73,18 +73,25 @@ StartupEvents.registry('item', envent =>{
     /* #region blaze head */
 
     event.create('esi:blaze_head')
-            .displayName('Blaze Head')
+            .displayName('§6Blaze Head§r')
+            .textureAll('minecraft:entity/blaze')
             .material('decoration')           // Type de matériau
             .hardness(1.0)                    // Résistance à la destruction
             .resistance(1.0)                  // Résistance aux explosions
             .soundType('wood')                // Son quand on marche/casse
             .requiresTool(false)              // Pas besoin d'outil spécial
-            .tagBlock('minecraft:mineable/axe') // Minable avec une hache (optionnel)
             .noCollision()                    // Pas de collision (comme les têtes)
             .notSolid()                       // Pas solide
             .lightLevel(10)                   // Émet de la lumière (0-15)
             .box(4, 0, 4, 12, 8, 12)         // Hitbox personnalisée [x1,y1,z1,x2,y2,z1] (en 16èmes)
                                             // La box fait la tête plus petite qu'un bloc normal
+            .item(item => {
+                item.tooltip('§7Une tête de Blaze enflammée')
+                item.tooltip('§cTrès chaude au toucher!')
+                item.maxStackSize(16)
+                item.rarity('rare')
+                item.glow(true)
+            })
 
     /* #endregion blaze head */
 
