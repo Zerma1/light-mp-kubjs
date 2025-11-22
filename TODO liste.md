@@ -10,6 +10,7 @@
 		2.  [Deployer](####Deployer)  
 		3. [Mechanical Mixer](####Mechanical_Mixer)  
 		4. [Spout](####Spout)  
+		5. [Crushing Wheel](####Crushing_Wheels)
 
 ## UNIFICATION
 ### MINERAI
@@ -17,7 +18,6 @@
 - [ ] Cuivre
 - [ ] Étain
 - [ ] Argent
-	- [ ] pixelmon et Ice&fire
 - [ ] Plomb
 - [ ] Nickel
 - [ ] Zinc
@@ -34,99 +34,131 @@
 ### VANILLA
 #### Carfting_Table
 
-1. [ ] Ametyst Shard - 4 * minecraft:amethyst_shard  
-	 ```
-	   B;
-	
-	 B = minecraft:amethyst_shard
-	 ```
+1. [x] Ametyst Shard - 4 * minecraft:amethyst_shard  
+    ```
+    B;
+    
+    B = minecraft:amethyst_shard
+    ```
 2. [ ] Blaze Head  - esi:blaze_head
-	```
-	   B;B;B
-	   B;S;B
-	   B;B;B
-	
-	B = blaze [Rode/Poder/esance ?]
-	S = Wither Skul
-	```
-3. [ ]	 .
+    ```
+       B;B;B
+       B;S;B
+       B;B;B
+    
+    B = blaze [Rode/Poder/esance ?]
+    S = Wither Skul
+    ```
+3. [x] FluxDust - 9x fluxnetworks:flux_dust
+    ```
+       R;R;R
+       R;O;R
+       R;R;R
+    
+    R = minecraft:redstone
+    O = create:poudered_obsidian
+    ```
+4. [x] 4x minecraft:quartz 
+    ```
+    B;
+    
+    B = minecraft:quartz_block
+    ```
+5. [x] Rose Quartz - biomesoplenty:rose_quartz
+    ```
+    B;
+    
+    B = biomesoplenty:rose_quartz_block
+    ```
 
 #### Brewing_Stand
 1. [ ] dragon blood neutral - esi:iceandfire_dragon_neutral_blood
-	```
-		 I
-	   B;B;B
-	
-	I = Blaze powder
-	B = water botle
-	```
+    ```
+      I
+    B;B;B
+    
+    I = Blaze powder
+    B = water botle
+    ```
 2. [ ] fire dragon blood - iceandfire:fire_dragon_blood
-	```
-		 I
-	   B;B;B
-	
-	I = iceandfire:fire_dragon_blood
-	B = esi:iceandfire_dragon_neutral_blood
-	```
+    ```
+      I
+    B;B;B
+    
+    I = iceandfire:fire_dragon_blood
+    B = esi:iceandfire_dragon_neutral_blood
+    ```
 3. [ ] ice dragon blood - iceandfire:ice_dragon_blood
-	```
-		 I
-	   B;B;B
-	
-	I = iceandfire:ice_dragon_blood
-	B = esi:iceandfire_dragon_neutral_blood
-	```
+    ```
+      I
+    B;B;B
+    
+    I = iceandfire:ice_dragon_blood
+    B = esi:iceandfire_dragon_neutral_blood
+    ```
 4. [ ] lightning dragon blood - iceandfire:lightning_dragon_blood
-	```
-		 I
-	   B;B;B
-	
-	I = iceandfire:lightning_dragon_blood
-	B = esi:iceandfire_dragon_neutral_blood
-	```
+    ```
+      I
+    B;B;B
+    
+    I = iceandfire:lightning_dragon_blood
+    B = esi:iceandfire_dragon_neutral_blood
+    ```
 ### CREATE
 #### Mechanical_Crafter
 
 1. [ ] Blaze Burner - create:blaze_burner	
 	```
-  	  B;C;B
-  	    S  
-    B;S;N;S;B   
-	  0;S;0 
-	    B    
-    
-    C = esi:blaze_head
-    S = create:iron_sheet
-    N = minecraft:netherrack
-    B = iceandfire:fire_dragon_blood
+          B;C;B
+            S  
+        B;S;N;S;B   
+          0;S;0 
+            B    
+        
+        C = esi:blaze_head
+        S = create:iron_sheet
+        N = minecraft:netherrack
+        B = iceandfire:fire_dragon_blood
 	```
 2. [ ] .
 #### Deployer
 
-1. [ ] Polished Rose Quartz - create:polished_rose_quartz
+1. [x] Polished Rose Quartz - create:polished_rose_quartz
 	```
-	C;S
-	
-	C = biomesoplenty:rose_quartz_cluster and  alick
-	S = create:sand_paper or abov
+        C;S
+        
+        C = biomesoplenty:rose_quartz_cluster and  alick
+        S = create:sand_paper or abov
 	```
 2. [ ] 
 
 #### Mechanical_Mixer
 1. [ ] Ultimate Lava - 50mB esi:fluid_ultimate_lava
 	```
-	250mB lava
-	4 * Nether Star
+        250mB lava
+        4 * Nether Star
 	```
-2. [ ] .
+2. [ ] Dragon blood (ecaille + bouteille)
 
 #### Spout
 1. [ ] Creative Blaze Cake - create:creative_blaze_cake
 	```
-	L = 250
-	B
-
-	L = esi:fluid_ultimate_lava
-	B = create:blaze_bake_base)
+		L = 250
+		B
+	
+		L = esi:fluid_ultimate_lava
+		B = create:blaze_bake_base)
 	```
 2. [ ] .
+#### Crushing_Wheels
+
+1. [x] Rose Quartz - 4x biomesoplenty:rose_quartz_chunk
+    ```
+        Crused = biomesoplenty:rose_quartz
+        
+        Output = 4 * biomesoplenty:rose_quartz_chunk
+            + 25% chance biomesoplenty:rose_quartz_shard
+            + 10% chance biomesoplenty:rose_quartz_crystal
+            + 5% chance biomesoplenty:rose_quartz_gem
+    ```
+		
