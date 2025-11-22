@@ -1,3 +1,6 @@
+## Commmande minecraft
+``/reload`` permet de recharger les datapacks et les ressources sans redémarrer le serveur ou le client Minecraft.
+
 ## Codes couleur pour les tooltips :
 
 - §0 = Noir
