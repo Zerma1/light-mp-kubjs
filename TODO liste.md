@@ -49,7 +49,7 @@
 	B = blaze [Rode/Poder/esance ?]
 	S = Wither Skul
 	```
-1. [x]	fLUX dUST - 9x fluxnetworks:flux_dust
+3. [x]	fLUX dUST - 9x fluxnetworks:flux_dust
    ```
        R;R;R
        R;O;R
@@ -58,7 +58,15 @@
     R = minecraft:redstone
     O = create:poudered_obsidian
    ```
-2. [ ] .
+4. [x] 4x minecraft:quartz 
+	 ```
+		B;
+		
+		B = minecraft:quartz_block
+	 ```
+
+5. [ ] .
+
 
 #### Brewing_Stand
 1. [ ] dragon blood neutral - esi:iceandfire_dragon_neutral_blood
