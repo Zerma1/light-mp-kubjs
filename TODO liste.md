@@ -34,7 +34,7 @@
 ### VANILLA
 #### Carfting_Table
 
-1. [ ] Ametyst Shard - 4 * minecraft:amethyst_shard  
+1. [x] Ametyst Shard - 4 * minecraft:amethyst_shard  
 	 ```
 	   B;
 	
@@ -49,16 +49,16 @@
 	B = blaze [Rode/Poder/esance ?]
 	S = Wither Skul
 	```
-3. [ ]	fLUX dUST - 9x fluxnetworks:flux_dust
+1. [x]	fLUX dUST - 9x fluxnetworks:flux_dust
    ```
        R;R;R
        R;O;R
        R;R;R
     
-    R = Fiedstone Dust - minecraftredstone
-    O = Poudered Obsidian - create:crushing/obsidian
+    R = minecraft:redstone
+    O = create:poudered_obsidian
    ```
-4. [ ] .
+2. [ ] .
 
 #### Brewing_Stand
 1. [ ] dragon blood neutral - esi:iceandfire_dragon_neutral_blood
@@ -127,7 +127,7 @@
 	250mB lava
 	4 * Nether Star
 	```
-2. [ ] .
+2. [ ] Dragon blood (ecaille + bouteille)
 
 #### Spout
 1. [ ] Creative Blaze Cake - create:creative_blaze_cake
