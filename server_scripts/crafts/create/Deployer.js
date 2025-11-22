@@ -1,19 +1,19 @@
-D// Crafts avec Create - Deployer
- console.info('Chargement des crafts - Create Deployer')
+console.info('Chargement des crafts - Create Deployer')
 
- ServerEvents.recipes(event => {
+ServerEvents.recipes(event => {
 
-     /* ========================================
-        DEPLOYER RECIPES (Sandpaper polish)
-        ======================================== */
+// exemple de deployer
+//  event.recipes.create.deploying(
+//            'Résultat sur le CONVOYEUR',
+//      [
+//          ' Item sur le CONVOYEUR',
+//          'Item dans la MAIN du DEPLOYER'// ne support pas les tags
+//      ])
 
-     // Polished Rose Quartz by Sandpaper + Rose Quartz Cluster
-      event.recipes.create.deploying('create:polished_rose_quartz',
-          [
-              'biomesoplenty:rose_quartz_cluster',  // ← Item sur le CONVOYEUR
-              'create:sand_paper'                   // ← Item dans la MAIN du DEPLOYER
-          ])
+  // Alternative avec sandpaper_polishing (plus simple)
+   event.recipes.create.sandpaper_polishing(
+       'create:polished_rose_quartz',
+       'biomesoplenty:rose_quartz_chunk'
+   )
 
-     // Ajoutez d'autres crafts ici...
-
- })
+})

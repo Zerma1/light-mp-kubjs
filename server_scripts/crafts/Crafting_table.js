@@ -36,6 +36,9 @@ ServerEvents.recipes(event => {
         // uncraft Quartz Block to 4 Quartz Crystals
         event.shapeless('4x minecraft:quartz', ['minecraft:quartz_block'])
 
+        // uncraft Rose Quartz Block to 4 Rose Quartz Crystals
+        event.shapeless('4x biomesoplenty:rose_quartz_chunk', ['biomesoplenty:rose_quartz_block'])
+
     /* #endregion CRAFTS SHAPELESS (sans forme) */
 
 })
