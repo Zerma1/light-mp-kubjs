@@ -42,10 +42,10 @@ StartupEvents.registry('fluid', event => {
 //*
     event.create('esi:fluid_ultimate_lava')
         .displayName('Ultimate Lava')
-        .textureThin(0x8C0082)
+//        .textureThin(0x8C0082)
         .bucketColor(0x8C0082)  // (format hexadécimal)
-//        .flowingTexture('minecraft:block/lava_flow')
-//        .stillTexture('esi:fluid/still_ultimate_lava')
+        .flowingTexture('minecraft:block/lava_flow')
+        .stillTexture('esi:fluid/still_ultimate_lava')
         .luminosity(15)  // Émet de la lumière (0-15)
         .density(1500)   // Plus dense que l'eau (1000)
         .temperature(5000)  // Température élevée
