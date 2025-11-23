@@ -34,7 +34,7 @@ StartupEvents.registry('item', event =>{ // ← Correction ici
 
 /* #region fluid */
 
-StartupEvents.registry('fluid', event => {*
+StartupEvents.registry('fluid', event => {
 
 /* #region exemple KubJS */
 
