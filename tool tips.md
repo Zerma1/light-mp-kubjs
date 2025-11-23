@@ -35,6 +35,6 @@ Tiers disponibles (durabilité) :
 - 'netherite' = 407 durabilité
 
 ## lien utils:
- - [textures minecraft de base](Bureau\Minecraft textures)
- - [KubJS (base)](https://kubejs.com/wiki/tutorials)
- - [KubJS (Create)](https://kubejs.com/wiki/addons/create)
+- [textures minecraft de base](Bureau\Minecraft textures)
+- [KubJS (base)](https://kubejs.com/wiki/tutorials)
+- [KubJS (Create)](https://kubejs.com/wiki/addons/create)
