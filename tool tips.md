@@ -1,3 +1,9 @@
+## Commmande minecraft
+
+ - ``startup_scripts/``: Restart the game or use ``/kubejs reload startup_scripts``. Not everything is reloadable - some things require you to restart the game (e.g. registries) or the world (e.g. worldgen).
+ - ``server_scripts/``: Use ``/reload`` to reload scripts, recipes, tags and all data or ``/kubejs reload server_scripts`` to reload scripts only
+ - ``client_scripts/``: Use ``F3 + T`` to reload scripts and assets or ```/kubejs reload client_scripts``` to reload scripts only
+
 ## Codes couleur pour les tooltips :
 
 - §0 = Noir
@@ -27,3 +33,8 @@ Tiers disponibles (durabilité) :
 - 'gold' = 77 durabilité
 - 'diamond' = 363 durabilité
 - 'netherite' = 407 durabilité
+
+## lien utils:
+- [textures minecraft de base](Bureau\Minecraft textures)
+- [KubJS (base)](https://kubejs.com/wiki/tutorials)
+- [KubJS (Create)](https://kubejs.com/wiki/addons/create)
