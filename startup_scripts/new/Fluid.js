@@ -1,24 +1,25 @@
 console.info('Chargement des fluides - Fluids')
 
-StartupEvents.registry('fluid', event => {
+
 
 /* #region exemple KubJS */
-
+/*
+StartupEvents.registry('fluid', event => {
   // Basic "thick" (looks like lava) fluid with red tint
   event.create('thick_fluid')
-    .textureThick(0xFF0000)  // ← Changé ici
+    .thickTexture(0xFF0000)
     .bucketColor(0xFF0000)
     .displayName('Thick Fluid')
 
-  // Basic "thin" (looks like water) fluid with cyan tint
+  // Basic "thin" (looks like water) fluid with cyan tint, has no bucket and is not placeable
   event.create('thin_fluid')
-    .textureThin(0xFF0000)  // ← Changé ici
+    .thinTexture(0xFF0000)
     .bucketColor(0x00FFFF)
     .displayName('Thin Fluid')
-    .noBucket()
+    .noBucket() // both these methods are 1.18.2+ only
     .noBlock()
 
-  // Fluid with custom textures (celui-ci est correct)
+  // Fluid with custom textures
   event.create('strawberry_cream')
     .displayName('Strawberry Cream')
     .stillTexture('kubejs:block/strawberry_still')
@@ -32,22 +33,24 @@ StartupEvents.registry('fluid', event => {
     .bucketColor(0xff0000)
 
   tacoSauce.bucketItem.group('food')
-
+})
+*/
 /* #endregion exemple KubJS */
 
+StartupEvents.registry('fluid', event => {
 /* #region Ultimate Lava */
-
+//*
     event.create('esi:fluid_ultimate_lava')
         .displayName('Ultimate Lava')
-        .textureThick(0x8C0082)
+        .textureThin(0x8C0082)
         .bucketColor(0x8C0082)  // (format hexadécimal)
-        .flowingTexture('minecraft:block/lava_flow')
-        .stillTexture('esi:fluid/still_ultimate_lava')
+//        .flowingTexture('minecraft:block/lava_flow')
+//        .stillTexture('esi:fluid/still_ultimate_lava')
         .luminosity(15)  // Émet de la lumière (0-15)
         .density(1500)   // Plus dense que l'eau (1000)
         .temperature(5000)  // Température élevée
         .viscosity(6000)  // Visqueux
-
+//*/
 /* #endregion Ultimate Lava */
 
 })
