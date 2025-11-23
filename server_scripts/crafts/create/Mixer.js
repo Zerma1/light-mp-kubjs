@@ -34,13 +34,13 @@ ServerEvents.recipes(event => {
     /* #region Ultimate Lava */
 
     // TODO: Activer quand le fluide sera créé
-//    event.recipes.create.mixing(
-//        Fluid.of('esi:fluid_ultimate_lava', 50),     // 50mB d'Ultimate Lava
-//        [
-//            Fluid.of('minecraft:lava', 250),          // 250mB de lave
-//            '4x minecraft:nether_star'                 // 4 étoiles du Nether
-//        ]
-//    ).superheated()  // Nécessite une source de chaleur super chauffée (blaze burner)
+    event.recipes.create.mixing(
+        Fluid.of('esi:fluid_ultimate_lava', 50),     // 50mB d'Ultimate Lava
+        [
+            Fluid.of('minecraft:lava', 250),          // 250mB de lave
+            '4x minecraft:nether_star'                 // 4 étoiles du Nether
+        ]
+    ).superheated()  // Nécessite une source de chaleur super chauffée (blaze burner)
 
     /* #endregion Ultimate Lava */
 
