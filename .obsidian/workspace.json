@@ -187,6 +187,7 @@
   "lastOpenFiles": [
     "server_scripts/crafts/vanilla/post Update.md",
     "assets/esi/textures/fluid/y",
+    "startup_scripts/LootTable.js",
     "startup.log",
     "assets/esi/textures/item/ultimate_lava_bucket.png",
     "assets/esi/textures/item/iceandfire_dragon_neutral_blood.png",
@@ -203,7 +204,6 @@
     "startup_scripts/new",
     "server_scripts/crafts/vanilla/Crafting_table.js",
     "server_scripts/crafts/vanilla/Brewing_stand.js",
-    "server_scripts/crafts/vanilla",
     "assets/esi/textures/item/ltimate_lava_still.png",
     "tool tips.md",
     "assets/esi/textures/fluid/still_ultimate_lava.png",
