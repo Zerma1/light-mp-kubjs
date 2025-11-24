@@ -3,7 +3,8 @@ console.info('Chargement des crafts - Brewing Stand (MoreJS)')
 /* #region exemple */
 
 /* ========================================
-    BREWING STAND RECIPES avec MoreJS
+MoreJSEvents.registerPotionBrewing((event) => {
+    BREWING STAND RECIPES avec addon MoreJS
 
     Syntaxe pour addCustomBrewing :
     event.addCustomBrewing(
@@ -11,15 +12,16 @@ console.info('Chargement des crafts - Brewing Stand (MoreJS)')
        'ingredient_du_bas',      // L'item dans les slots du bas
        'resultat'                // Le résultat
     )
+});
 ======================================== */
 
 /* #endregion exemple */
 
-ServerEvents.recipes(event => {
+MoreJSEvents.registerPotionBrewing(event => {
 
     /* #region dragon blood neutral */
 
-        event.brewing(
+        event.addCustomBrewing(
             'minecraft:blaze_powder',                    // Ingrédient du haut
             'minecraft:potion',                          // Water bottle (potion d'eau)
             'esi:iceandfire_dragon_neutral_blood'        // Résultat
