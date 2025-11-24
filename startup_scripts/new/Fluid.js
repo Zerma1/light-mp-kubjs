@@ -50,14 +50,16 @@ StartupEvents.registry('fluid', event => {
 //        .temperature(5000)
 //        .viscosity(6000)
 //        .rarity('rare')
+        // Personnalisation du seau (à faire APRÈS la création du fluide)
+        .bucketItem.create('esi:ultimate_lava_bucket')
+           .displayName('Ultimate Lava Bucket')
+           .tooltip('§6Un seau de lave ultime§r') // §6 = or
+           .tooltip('§cContient une lave d\'une chaleur extrême')  // §c = rouge
+           .maxStackSize(1)
+           .rarity('epic')
 
-    // Personnalisation du seau (à faire APRÈS la création du fluide)
-    event.create('esi:fluid_ultimate_lava').bucketItem.create('esi:ultimate_lava_bucket')
-                                                       .displayName('Ultimate Lava Bucket')
-                                                       .tooltip('§6Un seau de lave ultime§r') // §6 = or
-                                                       .tooltip('§cContient une lave d\'une chaleur extrême')  // §c = rouge
-                                                       .maxStackSize(1)
-                                                       .rarity('epic')
+
+
 //*/
 /* #endregion Ultimate Lava */
 
