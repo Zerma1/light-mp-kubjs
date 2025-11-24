@@ -44,11 +44,12 @@ StartupEvents.registry('fluid', event => {
         .displayName('Ultimate Lava')
         .stillTexture('esi:fluid/ultimate_lava_still')
         .flowingTexture('esi:fluid/ultimate_lava_flow')
-        .luminosity(15)
-        .density(1500)
-        .temperature(5000)
-        .viscosity(6000)
-        .rarity('rare')
+        .noBucket() // Le seau sera créé manuellement plus bas
+//        .luminosity(15)
+//        .density(1500)
+//        .temperature(5000)
+//        .viscosity(6000)
+//        .rarity('rare')
 
     // Personnalisation du seau (à faire APRÈS la création du fluide)
     event.create('esi:fluid_ultimate_lava').bucketItem.create('esi:ultimate_lava_bucket')
