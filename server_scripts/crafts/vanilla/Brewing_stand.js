@@ -15,15 +15,15 @@ console.info('Chargement des crafts - Brewing Stand (MoreJS)')
 
 /* #endregion exemple */
 
-//ServerEvents.recipes(event => {
+ServerEvents.recipes(event => {
 
     /* #region dragon blood neutral */
 
-//        event.brewing(
-//            'minecraft:blaze_powder',                    // Ingrédient du haut
-//            'minecraft:potion',                          // Water bottle (potion d'eau)
-//            'esi:iceandfire_dragon_neutral_blood'        // Résultat
-//        )
+        event.brewing(
+            'minecraft:blaze_powder',                    // Ingrédient du haut
+            'minecraft:potion',                          // Water bottle (potion d'eau)
+            'esi:iceandfire_dragon_neutral_blood'        // Résultat
+        )
 
     /* #endregion dragon blood neutral */
 
@@ -56,4 +56,4 @@ console.info('Chargement des crafts - Brewing Stand (MoreJS)')
 //    )
 
     /* #endregion Lightning dragon blood */
-//});
+});
