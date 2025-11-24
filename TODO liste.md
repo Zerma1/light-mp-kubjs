@@ -187,7 +187,7 @@
 ## MODS
 1. [ ] [Handcrafted](https://www.curseforge.com/minecraft/mc-mods/handcrafted)
 2. [ ] [Addons KubJS](https://github.com/AlmostReliable/morejs/wiki)
-3. [ ] [Iron Furnace](Iron Furnaces)
+3. [ ] [Iron Furnace]((https://www.curseforge.com/minecraft/mc-mods/iron-furnaces))
 4. [ ] [Click Machine](https://www.curseforge.com/minecraft/mc-mods/click-machine)
 5. [ ] [Compact Mahinees](https://www.curseforge.com/minecraft/mc-mods/compact-machines)
 6. [ ] [RFTools Utility](https://www.curseforge.com/minecraft/mc-mods/rftools-utility)
