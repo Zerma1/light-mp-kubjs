@@ -26,4 +26,15 @@ StartupEvents.registry('item', event =>{ // ← Correction ici
 
     /* #endregion Dragon Blood Neutral */
 
+    /* #region Ultimate Lava Bucket */
+
+    event.create('esi:ultimate_lava_bucket')
+        .displayName('Ultimate Lava Bucket')
+        .tooltip('§6Un seau de lave ultime§r') // §6 = or
+        .tooltip('§cContient une lave d\'une chaleur extrême')  // §c = rouge
+        .maxStackSize(1)
+        .rarity('epic')
+
+    /* #endregion Ultimate Lava Bucket */
+
 })
