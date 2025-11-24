@@ -12,6 +12,7 @@
         4. [Spout](####Spout)
         5. [Crushing Wheel](####Crushing_Wheels)
 4. [MODS](##MODS)
+5. [BUG ET CORRECTION]("C:\Users\bapti\OneDrive\Bureau\BUG ET CORRECTION.md")
 ## UNIFICATION
 ### MINERAI
 

@@ -35,7 +35,7 @@ ServerEvents.recipes(event => {
 
     // TODO: Activer quand le fluide sera créé
     event.recipes.create.mixing(
-        Fluid.of('esi:fluid_ultimate_lava', 50),     // 50mB d'Ultimate Lava
+        Fluid.of('esi:fluid/ultimate_lava', 50),     // 50mB d'Ultimate Lava
         [
             Fluid.of('minecraft:lava', 250),          // 250mB de lave
             '4x minecraft:nether_star'                 // 4 étoiles du Nether
