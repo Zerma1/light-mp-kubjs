@@ -1,0 +1,16 @@
+[18:20:52] [INIT] KubeJS 2101.7.2-build.321; MC 2101 NeoForge
+[18:20:52] [INIT] Loaded plugins:
+[18:20:52] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSPlugin
+[18:20:52] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSClientPlugin
+[18:20:52] [INIT] - dev.latvian.mods.kubejs.integration.architectury.ArchitecturyIntegration
+[18:20:52] [INIT] - com.jesz.createdieselgenerators.compat.kubejs.CDGKubeJSPlugin
+[18:20:52] [INIT] - com.bobvarioa.kubejspowah.KubeJSPowahPlugin
+[18:20:52] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[18:20:53] [INFO] startup_scripts:main.js#2: Hello, World! (Loaded startup example script)
+[18:20:53] [ERROR] ! startup_scripts:main.js#6: Tried to register event handler 'EntityEvents.drops' for invalid script type STARTUP! Valid script types: [SERVER, CLIENT]
+[18:20:53] [ERROR] ! main.js#88: dev.latvian.mods.rhino.EcmaError: ReferenceError: "event" is not defined.
+[18:20:54] [INFO] Loaded 0/1 KubeJS startup scripts in 1.68 s with 2 errors and 0 warnings
+[18:20:54] [INFO] Validated 3 files in kubejs/assets/ in 5ms
+[18:20:54] [INFO] Validated 0 files in kubejs/data/ in 1ms
+[18:20:56] [ERROR] ! main.js#63: Error in 'StartupEvents.registry': dev.latvian.mods.rhino.EcmaError: TypeError: Cannot find function bucketColor in object FluidBuilder[esi:fluid_ultimate_lava].
+[18:21:00] [ERROR] ! main.js#30: Error in 'StartupEvents.registry': dev.latvian.mods.rhino.EcmaError: ReferenceError: "event" is not defined.
