@@ -40,16 +40,19 @@ StartupEvents.registry('fluid', event => {
 StartupEvents.registry('fluid', event => {
 /* #region Ultimate Lava */
 //*
-    event.create('esi:fluid/ultimate_lava')
+    event.create('esi:fluid_ultimate_lava')
         .displayName('Ultimate Lava')
-//        .textureThin(0x8C0082)
-        .bucketColor(0x8C0082)  // (format hexadécimal)
-        .flowingTexture('esi:fluid/ultimate_lava_flow')
         .stillTexture('esi:fluid/ultimate_lava_still')
-        .luminosity(15)  // Émet de la lumière (0-15)
-        .density(1500)   // Plus dense que l'eau (1000)
-        .temperature(5000)  // Température élevée
-        .viscosity(6000)  // Visqueux
+        .flowingTexture('esi:fluid/ultimate_lava_flow')
+        .bucketColor(0x8C0082)
+        .luminosity(15)
+        .density(1500)
+        .temperature(5000)
+        .viscosity(6000)
+        .rarity('rare')
+
+    // Personnalisation du seau (à faire APRÈS la création du fluide)
+    event.create('esi:fluid_ultimate_lava').bucketItem.texture('esi:item/ultimate_lava_bucket')
 //*/
 /* #endregion Ultimate Lava */
 
