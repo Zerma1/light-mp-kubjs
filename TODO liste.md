@@ -133,17 +133,38 @@
 2. [ ] 
 
 #### Mechanical_Mixer
-1. [ ] Ultimate Lava - 50mB esi:fluid_ultimate_lava
+1. [x] Ultimate Lava - 50mB esi:fluid_ultimate_lava
 	```
         250mB lava
         4 * Nether Star
 	```
-2. [ ] Dragon blood (ecaille + bouteille)
-
+2. [x] dragon blood neutral - 3x esi:iceandfire_dragon_neutral_blood
+    ```    
+    Blaze powder
+    3x water botle
+    Heated
+    ```
+3. [x] fire dragon blood - 3x iceandfire:fire_dragon_blood
+    ```
+    iceandfire:fire_dragon_blood
+    3x esi:iceandfire_dragon_neutral_blood
+    Heated
+    ```
+4. [x] ice dragon blood - 3x iceandfire:ice_dragon_blood
+    ```
+    iceandfire:ice_dragon_blood
+    3x esi:iceandfire_dragon_neutral_blood
+    ```
+5. [x] lightning dragon blood - 3x iceandfire:lightning_dragon_blood
+    ```
+    iceandfire:lightning_dragon_blood
+    3x esi:iceandfire_dragon_neutral_blood
+    Super-Heated
+    ```
 #### Spout
 1. [ ] Creative Blaze Cake - create:creative_blaze_cake
 	```
-		L = 250
+		L = 1000
 		B
 	
 		L = esi:fluid_ultimate_lava
