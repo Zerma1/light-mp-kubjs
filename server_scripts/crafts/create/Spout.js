@@ -34,7 +34,7 @@ ServerEvents.recipes(event => {
         'create:creative_blaze_cake',
         [
             'create:blaze_cake_base',
-            Fluid.of('esi:fluid_ultimate_lava', 1000)
+            Fluid.of('esi:fluid/ultimate_lava', 1000)
         ]
     )
 
