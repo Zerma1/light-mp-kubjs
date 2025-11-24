@@ -17,7 +17,7 @@ MoreJSEvents.registerPotionBrewing((event) => {
 
 /* #endregion exemple */
 
-MoreJSEvents.registerPotionBrewing(event => {
+MoreJSEvents.registerPotionBrewing((event) => {
 
     /* #region dragon blood neutral */
 
