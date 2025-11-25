@@ -47,10 +47,11 @@ ServerEvents.recipes(event => {
     /* #region Dragon Blood Neutral */
 
 //    TODO: Changer le crafte pour utiliser de l'eau a la place de potion ( 3x 250mB d'eau soit 750mB d'eau au total )
+//    id eau = minecraft:water
     event.recipes.create.mixing(
         '3x esi:iceandfire_dragon_neutral_blood',
         [
-            '3x minecraft:potion', // 3*250 mB d'eau
+            Fluid.of('minecraft:water',750), // 3*250 mB d'eau
             'minecraft:blaze_powder'
         ]
     ).heated()  // Nécessite une source de chaleur (blaze burner)
