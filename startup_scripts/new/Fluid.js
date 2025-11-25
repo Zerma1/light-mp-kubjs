@@ -42,14 +42,25 @@ StartupEvents.registry('fluid', event => {
 //*
     event.create('esi:fluid_ultimate_lava')
         .displayName('Ultimate Lava')
-//        .textureThin(0x8C0082)
-        .bucketColor(0x8C0082)  // (format hexadécimal)
-        .flowingTexture('minecraft:block/lava_flow')
-        .stillTexture('esi:fluid/still_ultimate_lava')
-        .luminosity(15)  // Émet de la lumière (0-15)
-        .density(1500)   // Plus dense que l'eau (1000)
-        .temperature(5000)  // Température élevée
-        .viscosity(6000)  // Visqueux
+        .stillTexture('esi:fluid/ultimate_lava_still')
+        .flowingTexture('esi:fluid/ultimate_lava_flow')
+        .noBucket() // Le seau sera créé manuellement plus bas
+//        .lightLevel(15)
+//        .density(1500)
+//        .temperature(5000)
+//        .viscosity(6000)
+//        .rarity('rare')
+
+        // Personnalisation du seau (à faire APRÈS la création du fluide)
+//        ultimateLava.bucketItem
+//           .displayName('Ultimate Lava Bucket')
+//           .tooltip('§6Un seau de lave ultime§r') // §6 = or
+//           .tooltip('§cContient une lave d\'une chaleur extrême')  // §c = rouge
+//           .maxStackSize(1)
+//           .rarity('epic')
+
+
+
 //*/
 /* #endregion Ultimate Lava */
 

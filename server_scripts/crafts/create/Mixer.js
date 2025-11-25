@@ -47,6 +47,7 @@ ServerEvents.recipes(event => {
     /* #region Dragon Blood Neutral */
 
 //    TODO: Activer quand l'item sera créé
+    // Netral Dragon Blood
     event.recipes.create.mixing(
         '3x esi:iceandfire_dragon_neutral_blood',
         [
@@ -58,7 +59,7 @@ ServerEvents.recipes(event => {
     /* #endregion Dragon Blood Neutral */
 
     /* #region Fire Dragon Blood */
-
+    // Fire Dragon Blood
     event.recipes.create.mixing(
         '3x iceandfire:fire_dragon_blood',
         [
@@ -70,7 +71,7 @@ ServerEvents.recipes(event => {
     /* #endregion Fire Dragon Blood */
 
     /* #region Ice Dragon Blood */
-
+    // Ice Dragon Blood
     event.recipes.create.mixing(
         '3x iceandfire:ice_dragon_blood',
         [
@@ -82,7 +83,7 @@ ServerEvents.recipes(event => {
     /* #endregion Ice Dragon Blood */
 
     /* #region Lightning Dragon Blood */
-
+    // Lightning Dragon Blood
     event.recipes.create.mixing(
         '3x iceandfire:lightning_dragon_blood',
         [
