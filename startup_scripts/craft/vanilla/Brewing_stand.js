@@ -17,15 +17,15 @@ MoreJSEvents.registerPotionBrewing((event) => {
 
 /* #endregion exemple */
 
-MoreJSEvents.registerPotionBrewing((event) => {
+// MoreJSEvents.registerPotionBrewing((event) => {
 
     /* #region dragon blood neutral */
 
-        event.addCustomBrewing(
-            'minecraft:blaze_powder',                    // Ingrédient du haut
-            'minecraft:potion',                          // Water bottle (potion d'eau)
-            'esi:iceandfire_dragon_neutral_blood'        // Résultat
-        )
+        // event.addCustomBrewing(
+        //     'minecraft:blaze_powder',                    // Ingrédient du haut
+        //     'minecraft:potion',                          // Water bottle (potion d'eau)
+        //     'esi:iceandfire_dragon_neutral_blood'        // Résultat
+        // )
 
     /* #endregion dragon blood neutral */
 
@@ -58,4 +58,4 @@ MoreJSEvents.registerPotionBrewing((event) => {
 //    )
 
     /* #endregion Lightning dragon blood */
-});
+// });
