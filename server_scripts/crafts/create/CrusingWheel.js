@@ -46,7 +46,7 @@ ServerEvents.recipes(event => {
 
        /* #endregion test */
 
-
+         // Amethyst Block -> 4x Amethyst Shard + 25% chance 1x Bud + 10% chance 8x Dust + 5% chance 1x Cluster
        event.recipes.create.crushing(
                  [
                      '4x biomesoplenty:rose_quartz_chunk',

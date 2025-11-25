@@ -11,6 +11,7 @@ ServerEvents.recipes(event => {
 //      ])
 
   // Alternative avec sandpaper_polishing (plus simple)
+  // Rose Quartz Chunk -> Polished Rose Quartz
    event.recipes.create.sandpaper_polishing(
        'create:polished_rose_quartz',
        'biomesoplenty:rose_quartz_chunk'
