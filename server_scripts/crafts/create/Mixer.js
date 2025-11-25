@@ -46,8 +46,6 @@ ServerEvents.recipes(event => {
 
     /* #region Dragon Blood Neutral */
 
-//    TODO: Changer le crafte pour utiliser de l'eau a la place de potion ( 3x 250mB d'eau soit 750mB d'eau au total )
-//    id eau = minecraft:water
     event.recipes.create.mixing(
         '3x esi:iceandfire_dragon_neutral_blood',
         [
@@ -59,7 +57,7 @@ ServerEvents.recipes(event => {
     /* #endregion Dragon Blood Neutral */
 
     /* #region Fire Dragon Blood */
-
+    // Fire Dragon Blood
     event.recipes.create.mixing(
         '3x iceandfire:fire_dragon_blood',
         [
@@ -71,7 +69,7 @@ ServerEvents.recipes(event => {
     /* #endregion Fire Dragon Blood */
 
     /* #region Ice Dragon Blood */
-
+    // Ice Dragon Blood
     event.recipes.create.mixing(
         '3x iceandfire:ice_dragon_blood',
         [
@@ -83,7 +81,7 @@ ServerEvents.recipes(event => {
     /* #endregion Ice Dragon Blood */
 
     /* #region Lightning Dragon Blood */
-
+    // Lightning Dragon Blood
     event.recipes.create.mixing(
         '3x iceandfire:lightning_dragon_blood',
         [

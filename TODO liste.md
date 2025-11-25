@@ -12,7 +12,6 @@
         4. [Spout](####Spout)
         5. [Crushing Wheel](####Crushing_Wheels)
 4. [MODS](##MODS)
-5. [BUG ET CORRECTION]("C:\Users\bapti\OneDrive\Bureau\BUG ET CORRECTION.md")
 ## UNIFICATION
 ### MINERAI
 
@@ -187,7 +186,10 @@
 
 ## MODS
 1. [ ] [Handcrafted](https://www.curseforge.com/minecraft/mc-mods/handcrafted)
-2. [x] [Addons KubJS](https://github.com/AlmostReliable/morejs/wiki)
+2. [ ] Addons KubJS
+    - [ ] MorJS
+        - [x] download
+        - [ ] integrate [doc](https://github.com/AlmostReliable/morejs/wiki) [readme](https://github.com/AlmostReliable/morejs)
 3. [ ] [Iron Furnace]((https://www.curseforge.com/minecraft/mc-mods/iron-furnaces)
 4. [ ] [Click Machine](https://www.curseforge.com/minecraft/mc-mods/click-machine)
 5. [ ] [Compact Mahinees](https://www.curseforge.com/minecraft/mc-mods/compact-machines)
