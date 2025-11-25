@@ -46,12 +46,10 @@ ServerEvents.recipes(event => {
 
     /* #region Dragon Blood Neutral */
 
-//    TODO: Activer quand l'item sera créé
-    // Netral Dragon Blood
     event.recipes.create.mixing(
         '3x esi:iceandfire_dragon_neutral_blood',
         [
-            '3x minecraft:potion',
+            Fluid.of('minecraft:water',750), // 3*250 mB d'eau
             'minecraft:blaze_powder'
         ]
     ).heated()  // Nécessite une source de chaleur (blaze burner)
