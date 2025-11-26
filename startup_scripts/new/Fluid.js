@@ -42,7 +42,7 @@ StartupEvents.registry('fluid', event => {
 //*
     event.create('esi:fluid_ultimate_lava', 'thick')  //in this line u can replace "thin" for "thick" and those arguments works like ".thinTexture" and ".thickTexture" respectively.
         .displayName('Ultimate Lava')
-        .thint(0x6400FF) //this line is for color and it also handle ".bucketColor" argument in one
+        .think(0xFF00FF) //this line is for color and it also handle ".bucketColor" argument in one
         // .stillTexture('esi:fluid/ultimate_lava_still')
         // .flowingTexture('esi:fluid/ultimate_lava_flow')
         // .noBucket() // Le seau sera créé manuellement plus bas
